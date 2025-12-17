@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    /* Layout */
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+    }
+
+    /* LEFT PART */
+    .left {
+      width: 35%;
+      background: #fff4cc; /* light yellow */
+      padding: 30px;
+      text-align: center;
+    }
+
+    .left img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #ccc;
+    }
+
+    /* RIGHT PART */
+    .right {
+      width: 65%;
+      padding: 30px;
+    }
+
+    h1 {
+      margin-top: 0;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      font-size: 19px;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    p, li {
+      font-size: 15px;
+      line-height: 1.9;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    .contact p {
+      margin: 9px 0;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .left, .right {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- LEFT COLUMN -->
+  <div class="left">
+
+    <!-- ONLINE PROFILE IMAGE -->
+    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile">
+
+    <h2>PROFILE</h2>
+    <p>
+     I am a dedicated Diploma student in Computer Engineering with experience in frontend development, poster designing, and academic projects. Through participation in technical events and competitions, I have developed strong communication, teamwork, and technical skills. I am passionate about learning new technologies and applying them practically to enhance my professional growth as a student and intern.
+    </p>
+
+    <h2>CONTACT ME</h2>
+    <div class="contact">
+      <p>📞 +91 8668435255</p>
+      <p>📧 hilevedanti01@gmail.com</p>
+      <p>📍 Pune, Maharashtra</p>
+    </div>
+
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div class="right">
+
+    <h1>Vedanti Hile</h1>
+    <p><b>Student</b></p>
+
+    <h2>EDUCATION</h2>
+    <p><strong>Diploma in Computer Engineering</strong><br>
+      Government Polytechnic, Pune | 2023 – 2026<br>
+      Percentage: 89%</p>
+
+    <p><strong>Secondary Education (10th)</strong><br>
+      Ramchandra Gaikwad School  <br>
+      Percentage: 95%</p>
+
+    <h2>LANGUAGES</h2>
+    <ul>
+      <li>English</li>
+      <li>Hindi</li>
+      <li>Marathi</li>
+    </ul>
+
+    <h2>COMPUTER SKILLS</h2>
+    <ul>
+      <li>Programming: C, C++, Java, Python</li>
+      <li>Database: MySQL</li>
+      <li>Networking: VLAN (Basics)</li>
+      <li>Cybersecurity: Basics</li>
+      <li>Android Development: Basics</li>
+    </ul>
+
+  </div>
+
+</div>
+
+</body>
+</html>
